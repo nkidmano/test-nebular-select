@@ -1,0 +1,8 @@
+@import '~@nebular/theme/styles/theming';
+@import '~@nebular/theme/styles/themes/default';
+
+$nb-themes: nb-register-theme((
+  scrollbar-color: #000,
+  scrollbar-background-color: transparent,
+  scrollbar-width: 6px,
+), default, default);
